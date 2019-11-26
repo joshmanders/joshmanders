@@ -1,0 +1,35 @@
+{
+  "name": "joshmanders",
+  "version": "1.0.0",
+  "description": "Josh as a Dependency",
+  "main": "dist/index.js",
+  "bin": "dist/bin.js",
+  "scripts": {
+    "prebuild": "rimraf dist/",
+    "build": "tsc"
+  },
+  "repository": "joshmanders/joshmanders",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12"
+  },
+  "author": {
+    "name": "Josh Manders",
+    "email": "josh@joshmanders.com",
+    "url": "https://twitter.com/joshmanders"
+  },
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "eslint": "^6.7.1",
+    "eslint-config-nifty": "^2.0.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "colorette": "^1.1.0"
+  }
+}
