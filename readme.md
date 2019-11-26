@@ -15,7 +15,7 @@ $ npx joshmanders
 
   Josh Manders / @joshmanders
 
-  Hire me: https://full.snack.dev/for-hire
+  Hire me:  https://full.snack.dev/for-hire
 
      Work:  NiftyCo, App Metrics, Audience
   Twitter:  https://twitter.com/joshmanders
