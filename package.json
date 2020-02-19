@@ -1,6 +1,6 @@
 {
   "name": "joshmanders",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Josh as a Dependency",
   "main": "dist/index.js",
   "bin": "dist/bin.js",
