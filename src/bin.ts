@@ -4,8 +4,9 @@ import josh from './';
 
 process.stdout.write(
   colors.white(`
-  ${josh.name} / ${colors.cyan(`@${josh.handle}`)}
-  ${josh.forHire && colors.green(`\n  ${colors.bold('Hire me:')}  ${josh.forHire}`)}
+  ${josh.name} / ${colors.cyan(`@${josh.handle}`)}${(josh.forHire &&
+    colors.green(`\n\n  ${colors.bold('Hire me:')}  ${josh.forHire}`)) ||
+    ''}
 
      ${colors.bold('Work:')}  ${colors.blue(josh.work.map(({ name }) => name).join(', '))}
   ${colors.bold('Twitter:')}  ${colors.cyan(josh.twitter)}
