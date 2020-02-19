@@ -24,7 +24,8 @@ const joshManders: JoshManders = {
   twitter: 'https://twitter.com/joshmanders',
   github: 'https://github.com/joshmanders',
   website: 'https://joshmanders.com',
-  forHire: 'https://full.snack.dev/for-hire',
+  // forHire: 'https://full.snack.dev/for-hire',
+  forHire: false,
 };
 
 export default joshManders;
