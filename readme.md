@@ -1,28 +1,35 @@
-# joshmanders
+### Hi, I'm Josh 👋
 
-> Josh as a Dependency
+Currently I am building [**Primcloud**](https://primcloud.com 'Primcloud - Deploy, manage and scale your apps') where you can deploy, manage and scale your apps.
 
-I made this just for fun and to make sure my name as a package doesn't get taken.
+You can find me on [**Twitter**](https://twitter.com/joshmanders 'Me on Twitter').
 
-This is inspired by Mike Hartington's [`mhartington`](https://github.com/mhartington/npm-mhartington).
+Or check out [**my setup**](https://joshmanders.com/uses 'My setup') and what I am [**currently doing**](https://joshmanders.com/now 'What I am currently doing').
 
-## Usage
+#### Josh as a Dependency
 
-You can run it as a command:
+As a command:
 
 ```
 $ npx joshmanders
 
   Josh Manders / @joshmanders
 
-  Hire me:  https://full.snack.dev/for-hire
-
-     Work:  NiftyCo, App Metrics, Audience
+  Website:  https://joshmanders.com
   Twitter:  https://twitter.com/joshmanders
    GitHub:  https://github.com/joshmanders
-  Website:  https://joshmanders.com
 
-     Card:  npx joshmanders
+     Work:
+
+      Title: Founder & CEO
+      Company: Primcloud, Inc
+      Description: Deploy, manage and scale your apps
+      Website: https://primcloud.com
+
+      Title: Founder
+      Company: NiftyCo
+      Description: Design & develop simple solutions to complex problems
+      Website: https://aniftyco.com
 ```
 
 Or you can use it programmatically:
@@ -30,6 +37,6 @@ Or you can use it programmatically:
 ```typescript
 import josh from 'joshmanders';
 
-console.log(josh.name); // Josh Manders
-console.log(josh.work.map(({ name }) => name).join(', ')); // NiftyCo, App Metrics, Audience
+console.log(josh.name);
+console.log(josh.work.map(({ name }) => name).join(', '));
 ```
