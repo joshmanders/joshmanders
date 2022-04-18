@@ -4,20 +4,20 @@ import josh from './';
 
 process.stdout.write(
   colors.white(`
-  ${josh.name} / ${colors.green(`@${josh.handle}`)}
+  ${colors.bold(josh.name)} / ${colors.magentaBright(`@${josh.handle}`)}
+  ${josh.intro}
+  
+   ${colors.dim('Website:')}  ${colors.cyan(josh.website)}
+   ${colors.dim('Twitter:')}  ${colors.cyan(josh.twitter)}
+    ${colors.dim('GitHub:')}  ${colors.cyan(josh.github)}
 
-  ${colors.bold('Website:')}  ${colors.cyan(josh.website)}
-  ${colors.bold('Twitter:')}  ${colors.cyan(josh.twitter)}
-   ${colors.bold('GitHub:')}  ${colors.cyan(josh.github)}
-
-     ${colors.bold('Work:')}
-       ${josh.work
+  ${colors.bold('Projects:')}
+       ${josh.projects
          .map(
-           ({ name, title, description, website }) => `
-      ${colors.dim('Title:')} ${title}
-      ${colors.dim('Company:')} ${name}
-      ${colors.dim('Description:')} ${description}
-      ${colors.dim('Website:')} ${colors.cyan(website)}`
+           ({ name, tagline, website }) => `
+       ${colors.dim('Name:')} ${name}
+    ${colors.dim('Tagline:')} ${tagline}
+    ${colors.dim('Website:')} ${colors.cyan(website)}`
          )
          .join('\n')}
 

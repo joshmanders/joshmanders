@@ -1,39 +1,48 @@
-export type Work = {
-  name: string;
-  website: string;
-  title: string;
-  description: string;
-};
-
-export type JoshManders = {
+export type Josh = {
   name: string;
   handle: string;
-  work: Work[];
+  intro: string;
   twitter: string;
   github: string;
   website: string;
+  projects: Project[];
 };
 
-const joshManders: JoshManders = {
+export type Project = {
+  name: string;
+  website: string;
+  tagline: string;
+};
+
+export const josh: Josh = {
   name: 'Josh Manders',
   handle: 'joshmanders',
-  work: [
-    {
-      name: 'Primcloud, Inc',
-      title: 'Founder & CEO',
-      website: 'https://primcloud.com',
-      description: 'Deploy, manage and scale your apps',
-    },
-    {
-      name: 'NiftyCo',
-      title: 'Founder',
-      website: 'https://aniftyco.com',
-      description: 'Design & develop simple solutions to complex problems',
-    },
-  ],
+  intro: `Founder @ NiftyCo, designing & developing simple solutions to complex problems.`,
   twitter: 'https://twitter.com/joshmanders',
   github: 'https://github.com/joshmanders',
   website: 'https://joshmanders.com',
+  projects: [
+    {
+      name: 'Primcloud',
+      website: 'https://primcloud.com',
+      tagline: 'Deploy, manage and scale your apps.',
+    },
+    {
+      name: 'Makerlog',
+      website: 'https://getmakerlog.com',
+      tagline: 'The public to-do list that keeps you creating daily.',
+    },
+    {
+      name: 'Prevalidate',
+      website: 'https://prevalidate.com',
+      tagline: "Your product's success starts here.",
+    },
+    {
+      name: 'BugFeedr',
+      website: 'https://bugfeedr.com',
+      tagline: 'Collect Customer Feedback.',
+    },
+  ],
 };
 
-export default joshManders;
+export default josh;
