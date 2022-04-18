@@ -8,7 +8,8 @@
   },
   "scripts": {
     "prebuild": "rimraf dist/",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": "joshmanders/joshmanders",
   "license": "MIT",
