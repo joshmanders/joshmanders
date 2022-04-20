@@ -45,5 +45,5 @@ Or you can use it programmatically:
 import josh from 'joshmanders';
 
 console.log(josh.name);
-console.log(josh.work.map(({ name }) => name).join(', '));
+console.log(josh.projects.map(({ name }) => name).join(', '));
 ```
