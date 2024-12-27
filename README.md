@@ -1,8 +1,8 @@
 ### Hi, I'm Josh 👋
 
-Currently I am building [**NiftyCo**](https://aniftyco.com 'NiftyCo - Design & develop simple solutions to complex problems') a SaaS holding company where I design & develop simple solutions to complex problems.
+Currently I am building [**Primcloud**](https://primcloud.com 'Primcloud - The cloud hosting platform that lets you focus on what matters — your apps, your vision, your success.') where I'm transforming shipping into an extreme sport.
 
-You can find me on [**Makerlog**](https://getmakerlog.com/users/joshmanders) or [**Twitter**](https://twitter.com/joshmanders 'Me on Twitter').
+You can find me on [**X**](https://x.com/joshmanders 'Me on X').
 
 Or check out [**my setup**](https://joshmanders.com/uses 'My setup') and what I am [**currently doing**](https://joshmanders.com/now 'What I am currently doing').
 
@@ -14,28 +14,16 @@ As a command:
 $ npx joshmanders
 
   Josh Manders / @joshmanders
-  Founder @ NiftyCo, designing & developing simple solutions to complex problems.
+  Ambitious founder @ Primcloud transforming shipping into an extreme sport.
 
-   Website:  https://joshmanders.com
-   Twitter:  https://twitter.com/joshmanders
+   Website:  https://ambitiousfounder.com
+     X.com:  https://x.com/joshmanders
     GitHub:  https://github.com/joshmanders
 
   Projects:
 
-       Name: Makerlog
-    Tagline: The public to-do list that keeps you creating daily.
-    Website: https://getmakerlog.com
-    
-       Name: Prevalidate
-    Tagline: Your product's success starts here.
-    Website: https://prevalidate.com
-    
-       Name: BugFeedr
-    Tagline: Collect Customer Feedback.
-    Website: https://bugfeedr.com
-    
        Name: Primcloud
-    Tagline: Deploy, manage and scale your apps.
+    Tagline: The cloud hosting platform that lets you focus on what matters — your apps, your vision, your success.
     Website: https://primcloud.com
 ```
 

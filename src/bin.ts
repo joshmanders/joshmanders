@@ -8,7 +8,7 @@ process.stdout.write(
   ${josh.intro}
   
    ${colors.dim('Website:')}  ${colors.cyan(josh.website)}
-   ${colors.dim('Twitter:')}  ${colors.cyan(josh.twitter)}
+     ${colors.dim('X.com:')}  ${colors.cyan(josh.xdotcom)}
     ${colors.dim('GitHub:')}  ${colors.cyan(josh.github)}
 
   ${colors.bold('Projects:')}
